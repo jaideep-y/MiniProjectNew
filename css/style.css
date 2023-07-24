@@ -1298,6 +1298,101 @@ img {
     font-family: var(--ff-poppins);
     scroll-behavior: smooth;
   }
+/*       footer */
+          a:hover {
+            text-decoration: underline;
+            text-underline-offset: 0.5rem;
+            text-decoration-thickness: 1px;
+        }
+
+        #footer {
+            background: linear-gradient(to top, #7e184e, #7e184e 100%);
+            color: #fff;
+            /* padding: 20px; */
+            /* position: fixed;
+            bottom: 0; */
+            width: 110%;
+            height: 320px;
+            overflow: hidden;
+            transition: height 0.5s;
+            text-align: center;
+        }
+
+        #footer .content {
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        #footer.expanded {
+            height: 550px;
+        }
+
+        #footer.expanded .content {
+            opacity: 1;
+        }
+
+        #footer .icon {
+            cursor: pointer;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            transition: transform 0.3s;
+        }
+
+        #footer.expanded .icon {
+            transform: rotate(180deg);
+        }
+
+        #footer .wave {
+            margin-right: 100rem;
+            width: 110%;
+            height: 200px;
+            background-image: url('img/footer-waves.PNG');
+            background-repeat: repeat-x;
+           
+        }
+
+        .less-necessary {
+            display: flex;
+            justify-content: center;
+            width: 60%;
+        }
+
+        .ft-link1 {
+            font-size: 1.3rem;
+            margin: auto;
+            padding-bottom: 1rem;
+            color: #ffff;
+            text-decoration: none;
+        }
+
+        .contentss {
+            display: flex;
+            justify-content: center;
+            padding-left: 1rem;
+
+        }
+
+        .ft-link2 {
+            display: inline-;
+            font-size: 1rem;
+            margin: auto;
+            padding-bottom: 1.5rem;
+            padding-right: 6.2rem;
+            color: #ffff;
+            text-decoration: none;
+        }
+
+        .fixd {
+            /* position: absolute;
+            bottom: 0; */
+        }
+
+        .llt9 {
+            display: block;
+            color: white;
+            text-decoration: none;
+            line-height: 2rem;
+        }
   
   body { background: var(--white); }
   
