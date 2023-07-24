@@ -1312,7 +1312,7 @@ img {
             /* position: fixed;
             bottom: 0; */
             width: 110%;
-            height: 320px;
+            height: 270px;
             overflow: hidden;
             transition: height 0.5s;
             text-align: center;
@@ -1324,7 +1324,7 @@ img {
         }
 
         #footer.expanded {
-            height: 550px;
+            height: 400px;
         }
 
         #footer.expanded .content {
